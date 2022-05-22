@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CCET | ACM</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+        .navbar {
+            background-color: white;
+            border-radius: 10px;
+            position: relative;
+            top: 0;
+
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+            margin: 13px 60px;
+
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .navbar li a:hover {
+            background-color: rgb(37, 36, 36);
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+
+        #MEMBERSHIP_button:hover {
+            background-color: #8a8181;
+            color: white;
+            border-radius: 5PX;
+
+        }
+
+        #MEMBERSHIP_button {
+
+            border: none;
+            color: white;
+
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            background-color: rgb(66, 64, 64);
+            border-radius: 4px;
+        }
+
+        .shadow {
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+    
+    </style>
+</head>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<body>
+    <header>
+
+        <nav class="navbar">
+            <ul>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">Home</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="library-outline"></ion-icon>
+                        </span>
+                        <span class="title">About</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="images-outline"></ion-icon>
+                        </span>
+                        <span class="title">Gallery</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="game-controller-outline"></ion-icon>
+                        </span>
+                        <span class="title">Events</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="title">Team</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </span>
+                        <span class="title">Contact Us</span>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <div class="home"
+        style="display: flex; justify-content: space-evenly; font-family:'Poppins', sans-serif; padding: 100px;  margin-top: 20px;">
+
+        <div id="CCET">
+
+
+            <h1>
+                CCET ACM <br>
+                Student Chapter <br>
+
+
+            </h1>
+            <p>
+
+                We work on how to think <br>
+                Not what to think!
+
+            </p>
+
+            <button id="MEMBERSHIP_button" style=" height: 40px; ">
+                GET A MEMBERSHIP NOW
+            </button>
+
+        </div>
+
+        <div id="acm_logo">
+            <img src="/output-onlinepngtools.png" alt="" data-aos="fade-left">
+        </div>
+
+    </div>
+
+
+    <section id="about">
+        <div style="padding: 40px;">
+            <header style="font-family:'Poppins', sans-serif; font-size:35px; text-align: center; margin-top: px;"
+                data-aos="fade-right">
+                <b>ABOUT US </b>
+            </header>
+
+            <div class="container"
+                style="text-justify: auto; text-align: center; font-family:'Poppins', sans-serif; font-size:20px ; padding: 40px;"
+                data-aos="fade-up">
+                <p style="text-justify: auto;">
+                    CCET-ACM, one of the most reputed and distinguished technical chapter in CCET, we havw been working
+                    with vision and determination since it’s inception in 2015, with the aspirations of advancement of
+                    computer science as a science and a profession. We are not just an organization, we are a family,
+                    united by one cause, working towards making technology more accessible much like our parent
+                    organization, ACM.
+                </p>
+
+                <p style="text-justify: auto;">
+                    CCET-ACM has been working on projects related to logo designing, web development, machine learning
+                    and app development and has been organizing events and workshop for the same. Apart from this,
+                    CCET-ACM also boasts of its own research wing. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit tempora dolorum id quam perspiciatis culpa voluptates, molestiae itaque magnam corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa natus labore voluptatem distinctio placeat hic facere est, accusantium veritatis, sint aspernatur atque modi a pariatur earum maiores, voluptate commodi.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id rerum sed alias ullam quos ducimus, nemo
+                    aliquam, quisquam expedita est commodi! Tempore dignissimos magnam, cum, excepturi laboriosam
+                    suscipit ex odit ut itaque ipsa incidunt doloremque dolores! Nesciunt est ipsam harum!
+                </p>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <section>
+
+        <header style="font-family:'Poppins', sans-serif; font-size:35px; text-align: center; margin-top: 15PX;"
+            data-aos="fade-right">
+            <b style=" text-align: center;">TEAM</b>
+
+        </header>
+
+        <div class="container-fluid bg-2 text-center mt-5" id="team">
+            <div class="container ">
+
+
+                  
+              
+                <br>
+                <h3 class="subheading margin mb-5" style="font-family:'Mukta', sans-serif">Mentors</h3>
+                <div class="row">
+                    <div class="col-sm-4" data-aos="fade-right">
+                        <img src="/team/msgujral-01.png"
+                            class="img-responsive img-circle margin team-img rounded-circle" alt="Image"
+                            style="height: 12rem;">
+                        <h5>Dr. Manpreet Singh</h5>
+                        <p>Principle CCET (Degree Wing) <br> Source of Insipriation</p>
+
+                    </div>
+                    <div class="col-sm-4" data-aos="fade-up">
+                        <img src="/team/sk_singh-01.png"
+                            class="img-responsive img-circle margin team-img rounded-circle" alt="Image"
+                            style="height: 12rem;">
+                        <h5>Dr. Sunil K. Singh</h5>
+                        <p>Professor and HOD, CSE <br>
+                            Faculty Mentor</p>
+                    </div>
+                    <div class="col-sm-4" data-aos="fade-left">
+                        <img src="/team/sudhakar_kumar-01.png"
+                            class="img-responsive img-circle margin team-img  rounded-circle" alt="Image"
+                            style="height: 12rem;">
+                        <h5>Sudhakar Kumar
+                        </h5>
+                        <p>Assistant Professor, CSE <br>
+                            Faculty Sponsor</p>
+                    </div>
+
+                </div>
+                <h3 class="subheading margin mt-5 mb-5" style="font-family:'Mukta', sans-serif">Executive Council</h3>
+                <div class="row">
+                    <div class="col-sm-3 " >
+
+                        <div style="padding: 20px; height: 17rem ; width: 13rem; border-radius: 9px  "   class="shadow">
+          
+                            <img src="/team/MUSKAAN.png" class="img-responsive img-circle margin team-img rounded-circle"
+                            alt="Image" style="height: 10rem; width: 9rem;">
+                        <h5>Muskaan Chopra</h5>
+                        <p>Chairman</p>
+
+
+                    
+                        </div>
+                 
+
+                        
+                    </div>
+                    <div class="col-sm-3" >
+
+                        <div style="padding: 20px; height: 17rem ; width: 13rem; border-radius: 9px  "   class="shadow">
+          
+                            <img src="/team/KRITI.png" class="img-responsive img-circle margin team-img rounded-circle"
+                            alt="Image" style="height: 10rem; width: 9rem;">
+                        <h5>Kriti Aggarwal</h5>
+                        <p>Vice Chairman</p>
+                    
+                        </div>
+                 
+                        
+                    </div>
+                    <div class="col-sm-3">
+
+                        <div style="padding: 20px; height: 17rem ; width: 13rem; border-radius: 9px  "   class="shadow">
+          
+                            <img src="/team/ANUREET.png" class="img-responsive img-circle margin team-img rounded-circle"
+                            alt="Image" style="height: 10rem; width: 9rem;">
+                        <h5>Anureet Chhabra</h5>
+                        <p>Secretary</p>
+                    
+                        </div>
+                 
+                        
+
+                        
+                    </div>
+                    <div class="col-sm-3">
+
+                        <div style="padding: 20px; height: 17rem ; width: 13rem; border-radius: 9px  "   class="shadow">
+          
+                                <img src="/team/TARUN.png" class="img-responsive img-circle margin team-img rounded-circle"
+                                alt="Image" style="height: 10rem; width: 9rem;">
+                            <h5>Tarun</h5>
+                            <p>Membership Chair</p>
+                        
+                           
+                    
+                        </div>
+                 
+                          
+          
+
+
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+
+
+                        <div style="padding: 20px; height: 17rem ; width: 13rem; border-radius: 9px  "   class="shadow">
+          
+                           
+                        <img src="/team/NAVJOT.png" class="img-responsive img-circle margin team-img rounded-circle"
+                            alt="Image" style="height: 10rem; width: 9rem;">
+                        <h5>Navjot Jangra
+                        </h5>
+                        <p>Treasurer</p>
+
+                    
+                        </div>
+                 
+
+
+                    </div>
+                    <div class="col-sm-3">
+                        <div style="padding: 20px; height: 17rem ; width: 13rem; border-radius: 9px  "   class="shadow">
+          
+                            <img src="/team/parnit.png" class="img-responsive img-circle margin team-img rounded-circle"
+                            alt="Image" style="height: 10rem; width: 9rem;">
+                        <h5>Parnit Kaur</h5>
+                        <p>Web Master</p>
+
+                    
+                        </div>
+                 
+
+                       
+
+                    </div>
+                    <div class="col-sm-3">
+                        <div style="padding: 20px; height: 17rem ; width: 13rem; border-radius: 9px  "   class="shadow">
+          
+                           
+                        <img src="/team/ASHUTOSH.png" class="img-responsive img-circle margin team-img rounded-circle"
+                            alt="Image" style="height: 10rem; width: 9rem;">
+                        <h5>Ashutosh Thakur</h5>
+                        <p>Design Head</p>
+                    
+                        </div>
+                 
+
+
+
+                    </div>
+                    <div class="col-sm-3">
+
+                        <div style="padding: 20px; height: 17rem ; width: 13rem; border-radius: 9px  "   class="shadow">
+          
+                           
+                        <img src="team/AKASH.png" class="img-responsive img-circle margin team-img rounded-circle"
+                            alt="Image" style="height: 10rem; width: 9rem;">
+                        <h5>Akash Sharma</h5>
+                        <p>App Master</p>
+                    
+                        </div>
+                 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div style="padding: 20px; height: 17rem ; width: 13rem; border-radius: 9px  "   class="shadow">
+          
+                           
+                      <img src="/team/TARUNA.png" class="img-responsive img-circle margin team-img rounded-circle"
+                            alt="Image" style="height: 10rem; width: 9rem;">
+                        <h5>Taruna Saini
+                        </h5>
+                        <p>Executive Member Head</p>
+                        </div>
+                 
+
+                      
+
+
+                    </div>
+                    <div class="col-sm-3">
+
+
+                        <div style="padding: 20px; height: 17rem ; width: 13rem; border-radius: 9px  "   class="shadow">
+          
+                           <img src="/team/ISHIKA.png" class="img-responsive img-circle margin team-img rounded-circle"
+                            alt="Image" style="height: 10rem; width: 9rem;">
+                        <h5>Ishika Malhotra</h5>
+                        <p>Executive PR Head</p>
+                    
+                        </div>
+                 
+                        
+                    </div>
+                    <div class="col-sm-3">
+
+                        <div style="padding: 20px; height: 17rem ; width: 13rem; border-radius: 9px  "   class="shadow">
+          
+                           
+                     <img src="/team/KARAN.png" class="img-responsive img-circle margin team-img rounded-circle"
+                            alt="Image" style="height: 10rem; width: 9rem;">
+                        <h5>Karan Singh</h5>
+                        <p>Social Media Manager</p>
+                        </div>
+                 
+                       
+                    </div>
+                    <div class="col-sm-3">
+
+                        <div style="padding: 20px; height: 17rem ; width: 13rem; border-radius: 9px  "   class="shadow">
+          
+                             <img src="team/MANRAJ.png" class="img-responsive img-circle margin team-img rounded-circle"
+                            alt="Image" style="height: 10rem; width: 9rem;">
+                        <h5>Manraj Singh</h5>
+                        <p>Event Manager</p>
+                    
+                        </div>
+                 
+                      
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+
+
+    <section>
+
+        <header
+            style="font-family:'Poppins', sans-serif; font-size:35px; text-align: center; margin-top: 40px; margin-bottom: 60px;"
+            data-aos="fade-down">
+            <b style=" text-align: center; ">EVENTS</b>
+
+        </header>
+
+
+        <div id="events">
+
+            <div class="event container mb-5" style="display: flex; flex-direction: row; ">
+
+                <div style="display: flex; flex-direction: column;">
+
+                    <h3>
+                        Two-day Workshop on Roadmap to Machine Learning Algorithms
+                    </h3>
+
+                    <p style="font-family:'Poppins', sans-serif; ">
+                        On the occasion of the chapter’s 6th Foundation Day, CCET ACM Student Chapter brings you the
+                        opportunity of learning the machine learning basics through its Two-day Workshop on Roadmap to
+                        Machine Learning Algorithms!! In this two-day session, the audience will be guided about the
+                        basic data analysis concepts and a few of the most common machine learning algorithms in the
+                        python language.
+                    </p>
+
+
+                    <br>
+                    <p>Muskaan Chopra, Navjot Jangra <br>
+                        18-19 September, 2021</p>
+                    <hr>
+
+
+
+                </div>
+
+
+
+                <div>
+                    <img src="/EVEVNTS/2022 Coding Raijin.jpeg" alt="" style="width: 100%; padding: 20px;">
+                </div>
+
+
+            </div>
+            <div class="event container mb-5" style="display: flex; flex-direction: row;">
+
+
+                <div>
+                    <img src="/EVEVNTs/meeturmentors-22-01.png" alt="" style="width: 30rem;">
+                </div>
+
+
+                <div style="display: flex; flex-direction: column;">
+
+                    <h3>
+                        CCET ACM Student Chapter presents Meet Your Mentors
+                    </h3>
+
+                    <p style="font-family:'Poppins', sans-serif; ">
+                        CCET ACM Student Chapter (CASC) is organizing a Teacher’s Day Celebration Event. On this
+                        beautiful occasion, let us take the opportunity to convey wishes to all our mentors who have
+                        given an impeccable contribution in shaping us. Also a farewell for the core committee of
+                        2020-21 will be brought about too. CASC has been fortunate to have one of the most brilliant
+                        teams and it’s time for us to wish the core committee an eminent future ahead.
+                    </p>
+
+
+                    <br>
+                    <p>Muskaan Chopra <br>
+                        5 September, 2021</p>
+                    <hr>
+
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <div class="event container  mb-5" style="display: flex; flex-direction: row;">
+
+                <div style="display: flex; flex-direction: column;">
+
+                    <h3>
+                        CCET ACM Student Chapter presents Invited Talk 2021
+                    </h3>
+
+                    <p style="font-family:'Poppins', sans-serif; ">
+                        Over the years, CASC has been growing and involving more tech enthusiasts who share their
+                        experience and knowledge of their domain with other budding technocrats through different
+                        events. With huge success from past events, CASC is glad to announce that the next session of
+                        the Technical Leader Talks will be held on August 31, 2021 (03:00 PM to 04:00 PM).
+                    </p>
+
+
+                    <br>
+                    <p>Mr. Saurabh Pratap Singh <br>
+                        31 August, 2021</p>
+                    <hr>
+
+
+
+                </div>
+
+
+
+                <div>
+                    <img src="/EVEVNTS/invited-talks-2021.svg" alt="" style="width: 30rem;">
+                </div>
+
+
+            </div>
+
+
+            <div class="event container  mb-5" style="display: flex; flex-direction: row;">
+
+
+                <div>
+                    <img src="/EVEVNTs/undergrad-cs-01.png" alt="" style="width: 30rem;">
+                </div>
+
+
+                <div style="display: flex; flex-direction: column;">
+
+                    <h3>
+                        Open Discussion on "An Undergrad perspective on CS Life"
+                    </h3>
+
+                    <p style="font-family:'Poppins', sans-serif; ">
+                        In this discussion, the audience will be guided towards the different prospects of CS
+                        undergraduates and some Dos and Donts. By the end of the session, participants will be able to:
+                        Explore various CS Domains. Think about their plans for the future as from a broader outlook.
+                    </p>
+
+
+                    <br>
+                    <p>Muskaan Chopra <br>
+                        14 August, 2021</p>
+                    <hr>
+
+                    <p>
+                        <a href="#" style="text-decoration: none;">Click Here To Know More</a>
+                    </p>
+
+
+                </div>
+
+            </div>
+
+
+    </section>
+
+
+    <section>
+        
+    </section>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                offset: 400,
+                duration: 1000
+            }
+        );
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
